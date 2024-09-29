@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #343c56;
+    border-radius: 40px;
+
+}
+.header{
+    padding-top: 46px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.item{
+    
+    width: 200px;
+    border-radius: 30px;
+    background-color: #ff0101;
+    text-align: center;
+    padding: 14px 0px;
+}
+.link{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+text-decoration: none;
+}
+.hero{
+    padding-top: 68px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.flexbox{
+    border-radius: 40px;
+    background: #000000;
+    width: 264px;
+    height: 118px; 
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+justify-content: center;
+
+
+}
+.textt{
+    margin-top: 44px;
+}
+.flexx{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    background-color: red; /* Qizil orqa fon */
+    border-radius: 50px;
+    
+    padding: 20px;
+}
+
+.text {
+   background-color: #61ff00; /* Yashil orqa fon */
+    width: 300px;
+    height: 109px;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+height: 109px;
+display: flex; /* Flex konteyner */
+justify-content: center; /* Gorizontal o'rtaga joylashtirish */
+align-items: center; /* Vertikal o'rtaga joylashtirish */
+    
+}
